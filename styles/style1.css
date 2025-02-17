@@ -233,7 +233,7 @@ main{
         height:40%;
     }
 
-    
+
     .form{
         left: 20%;
     }
@@ -249,4 +249,13 @@ main{
    .word-list{
     margin-bottom: 1rem;
    }
+
+   .results-container{
+    width: 90%;
+   }
+
+   table{
+    border-spacing: 8px;
+   }
+
 }
