@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,42 +12,49 @@
 
 <body>
     <header>
-        
+
     </header>
 
 
     <main>
-        <div class="div-elements"> 
+        <div class="div-elements">  
             <h1> Juego de palabras </h1>
 
-            <div class="div-players"> 
+            <div class="div-players">
 
-                <p id="p1"> </p>
-                <p id="p2"> </p>
-                <p id="p3"> </p>
-                <p id="p4"> </p>
+                <div id="playerNames">
+                    <p class="player-slot"></p>
+                    <p class="player-slot"></p>
+                    <p class="player-slot"></p>
+                    <p class="player-slot"></p>
+                </div>
 
                 <button class="add-player">
-                    Añadir jugador(es)
+                    Añadir Jugadores
+                </button>
+
+                <button class="start-game">
+                    Iniciar Juego
                 </button>
             </div>
-            
 
-            <fieldset class="conditions"> 
-                <h2>condiciones para jugar:</h2> <br>
-                <p> - cada jugador tendrá un minuto para introducir
+
+            <div id="conditions" class="conditions">
+                <h2>Condiciones para jugar:</h2> <br>
+                <p> - Cada jugador tendrá un minuto para introducir
                     palabras que inicien con la letra sugerida
                 </p>
-                <p> - si la palabra no empieza por la letra sugeridad, se contará como incorrecta</p>
-            </fieldset>
+                <p> - Si la palabra no empieza por la letra sugeridad, se contará como incorrecta</p>
+            </div>
         </div>
-        
+
     </main>
 
     <footer>
 
 
     </footer>
-
+    <script src="app.js"></script>
 </body>
+
 </html>
