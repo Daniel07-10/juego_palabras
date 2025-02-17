@@ -209,3 +209,43 @@ main{
 .player-slot{
     margin-top: 1rem;
 }
+
+@media screen and (max-width:480px) {
+    body{
+        width: 100%;
+    }
+
+    main{
+        height: 30rem;
+        width: 80%;
+    }
+
+    .div-elements > h1{
+        text-align: center;
+    }
+
+    .add-player{
+        width: 80%;
+    }
+
+    .conditions{
+        font-size: 0.78rem;
+        height:40%;
+    }
+
+    .form{
+        left: 20%;
+    }
+
+    .start-game{
+        width: 70%;
+    }
+
+    .game-container{
+        width: 80%;
+    }
+
+   .word-list{
+    margin-bottom: 1rem;
+   }
+}

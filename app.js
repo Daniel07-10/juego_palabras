@@ -55,6 +55,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         form.style.opacity = "1";
         main.style.height="110vh"
         conditions.style.top="40%"
+        conditions.style.height="20%"
         body.appendChild(form);
 
         document.querySelector(".confirmPlayers").addEventListener("click",() => {
@@ -106,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () =>{
          <h3>Letra: <span id = "random-letter">${generateRandomLetter()}</span></h3>
          <h3>Tiempo Restante: <span id = "timer">60</span> segundos</h3>
          <input type = "text" class="word-input" id = "word-input" placeholder = "Escribe una palabra">
-         <div id = "word-list"></div>
+         <div class="word-list" id = "word-list"></div>
         </div>
         `;
 
